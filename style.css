@@ -170,7 +170,7 @@ a:hover {
     color: rgba(0, 0, 0, .7);
 }
 
-.d-bloc .panel icon {
+.d-bloc .panel {
     border-color: rgba(0, 0, 0, .7);
 }
 
@@ -849,20 +849,9 @@ h4 {
 }
 
 @media only screen and (min-width: 768px)  {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    form {
-        text-align: center;
-    }
+
     .form-control{
         width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
     }
 }
 
@@ -1053,9 +1042,36 @@ input{
 #citation{
     font-size: 20px;
     font-style: italic;
+
+    color: black;
 }
 #pdg{
     font-weight: bold;
     font-size: 22px;
 
+    color:black;
+
+}
+.logo { width: 70px;
+}
+footer .col-sm-3 a {
+    color: white;
+    font-size: 14px;
+}
+.us {
+
+    border-radius: 10px;
+    color: black;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and(min-width: 767px){
+
+
+}
+.text-right{
+    color: black;
 }
